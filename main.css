@@ -1,0 +1,30 @@
+a{
+text-decoration: none;
+}
+
+li:first-of-type + li{
+	color: yellow;
+}
+
+.caja {
+	background-color: yellow;
+	padding: 1em;
+	border: 1em black solid;
+	visibility: hidden;
+}
+
+.caja2 {
+	background-color: red;
+	padding-top: 1em;
+	margin-top: 1em;
+	border: 1em dotted black;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
